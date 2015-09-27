@@ -1,0 +1,19 @@
+---
+title: "Regression Models"
+author: "Lamont Girton"
+date: "September 27, 2015"
+output: 
+  pdf_document: 
+    fig_caption: yes
+---
+
+
+```{r}
+
+library(knitr)
+
+opts_chunk$set(echo = F)
+
+fit <- lm(mpg ~ am, mtcars)
+```
+
